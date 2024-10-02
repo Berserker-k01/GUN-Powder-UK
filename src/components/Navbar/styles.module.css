@@ -1,0 +1,109 @@
+div.navbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+div.navbar > * {
+    padding-top: 0.5rem;
+}
+
+div.logo {
+    height: 100%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+div.logo > a {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+div.logo > img {
+    height: 100%;
+}
+
+ul.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 4rem;
+    margin-right: 6rem;
+}
+
+ul.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+}
+
+li.selected,
+ul.links li:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+ul.icons {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+li.cart {
+    position: relative;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.active {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    right: 0;
+    border-radius: 50%;
+    background-color: greenyellow;
+    align-self: start;
+}
+
+div.contact {
+    height: 100%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    padding-top: 0;
+    background-color: grey;
+    color: white;
+    font-size: 0.5rem;
+}
+
+@media (max-width: 767px) {
+    div.navbar {
+        height: 40px;
+    }
+
+    div.logo > a {
+        font-size: 1rem;
+    }
+
+    div.logo > img {
+        height: 80%;
+    }
+
+    ul.links {
+        gap: 2rem;
+        margin-right: 2rem;
+    }
+
+    div.contact {
+        display: none;
+    }
+}

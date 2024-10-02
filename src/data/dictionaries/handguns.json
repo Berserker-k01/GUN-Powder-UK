@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "filename": "Item_Weapon_DesertEagle_C_h.png",
+        "Category": "Handgun",
+        "Name": "Desert Eagle",
+        "Price": 77.02,
+        "Weight": 6.61,
+        "Serial": 4308383926,
+        "Damage": 2,
+        "Description": "The Desert Eagle is a powerful semi-automatic handgun, renowned for its high stopping power and iconic design, making it a favorite among collectors."
+    },
+    {
+        "id": 2,
+        "filename": "Item_Weapon_G18_C_h.png",
+        "Category": "Handgun",
+        "Name": "G18",
+        "Price": 108.75,
+        "Weight": 5.27,
+        "Serial": 2497381483,
+        "Damage": 1,
+        "Description": "The G18 is a compact and versatile handgun that can switch between semi-automatic and fully automatic firing modes, ideal for various combat scenarios."
+    },
+    {
+        "id": 3,
+        "filename": "Item_Weapon_M1911_C_h.png",
+        "Category": "Handgun",
+        "Name": "M1911",
+        "Price": 110.21,
+        "Weight": 5.94,
+        "Serial": 9456933119,
+        "Damage": 1,
+        "Description": "The M1911 is a classic .45 caliber handgun known for its reliability and accuracy, widely used by military and law enforcement personnel."
+    },
+    {
+        "id": 4,
+        "filename": "Item_Weapon_M79_C.png",
+        "Category": "Handgun",
+        "Name": "M79",
+        "Price": 114.0,
+        "Weight": 6.09,
+        "Serial": 4412267996,
+        "Damage": 2,
+        "Description": "The M79 is a single-shot grenade launcher, famous for its ability to deliver explosive rounds, making it a powerful choice in combat."
+    },
+    {
+        "id": 5,
+        "filename": "Item_Weapon_M9_C_h.png",
+        "Category": "Handgun",
+        "Name": "M9",
+        "Price": 74.7,
+        "Weight": 6.68,
+        "Serial": 7050403365,
+        "Damage": 4,
+        "Description": "The M9 is a standard-issue military handgun, valued for its durability, accuracy, and compatibility with various ammunition types."
+    },
+    {
+        "id": 6,
+        "filename": "Item_Weapon_NagantM1895_C_h.png",
+        "Category": "Handgun",
+        "Name": "Nagant M1895",
+        "Price": 114.06,
+        "Weight": 5.69,
+        "Serial": 9436073292,
+        "Damage": 4,
+        "Description": "The Nagant M1895 is a unique revolver known for its innovative gas-seal system, offering increased muzzle velocity and accuracy."
+    },
+    {
+        "id": 7,
+        "filename": "Item_Weapon_Rhino_C_h.png",
+        "Category": "Handgun",
+        "Name": "Rhino",
+        "Price": 98.09,
+        "Weight": 5.92,
+        "Serial": 1526458796,
+        "Damage": 2,
+        "Description": "The Rhino is a modern revolver with a distinctive design, known for its reduced recoil and ergonomic grip, suitable for both novice and experienced shooters."
+    },
+    {
+        "id": 8,
+        "filename": "Item_Weapon_Sawnoff_C_h.png",
+        "Category": "Handgun",
+        "Name": "Sawnoff",
+        "Price": 111.24,
+        "Weight": 4.21,
+        "Serial": 8502841591,
+        "Damage": 1,
+        "Description": "The Sawnoff shotgun is a compact firearm, ideal for close-range encounters, known for its devastating power despite its small size."
+    },
+    {
+        "id": 9,
+        "filename": "Item_Weapon_vz61Skorpion_C_h.png",
+        "Category": "Handgun",
+        "Name": "vz61 Skorpion",
+        "Price": 89.31,
+        "Weight": 6.12,
+        "Serial": 5204025477,
+        "Damage": 2,
+        "Description": "The vz61 Skorpion is a lightweight submachine gun, compact and easy to handle, designed for rapid fire in close-quarters combat."
+    }
+]

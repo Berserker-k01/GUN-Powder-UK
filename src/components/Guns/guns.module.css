@@ -1,0 +1,30 @@
+div.main {
+    margin: 2.5rem 0;
+    display: flex;
+    gap: 1%;
+    width: 100%;
+}
+
+section.products {
+    width: 69%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+@media (max-width: 1024px) {
+    div.main {
+        margin: 1.5rem 0;
+    }
+}
+
+@media (max-width: 767px) {
+    div.main {
+        flex-direction: column;
+    }
+
+    section.products {
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}

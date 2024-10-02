@@ -1,0 +1,145 @@
+[
+    {
+        "id": 61,
+        "filename": "Item_Ammo_12Guage_C.png",
+        "Category": "Ammunition",
+        "Name": "12 Gauge",
+        "Price": 15.00,
+        "Weight": 0.5,
+        "Serial": 4927512695,
+        "Damage": 3,
+        "Description": "The 12 Gauge shell is a versatile ammunition choice, ideal for hunting and sport shooting. With a solid design, it offers reliable performance and consistent accuracy."
+    },
+    {
+        "id": 62,
+        "filename": "Item_Ammo_300Magnum_C.png",
+        "Category": "Ammunition",
+        "Name": "300 Magnum",
+        "Price": 14.00,
+        "Weight": 0.48,
+        "Serial": 9316279474,
+        "Damage": 1,
+        "Description": "The .300 Magnum is a powerful cartridge designed for long-range precision shooting. It's perfect for big game hunting and delivers exceptional performance."
+    },
+    {
+        "id": 63,
+        "filename": "Item_Ammo_303Ball_C.png",
+        "Category": "Ammunition",
+        "Name": "303 Ball",
+        "Price": 12.00,
+        "Weight": 0.92,
+        "Serial": 4860580374,
+        "Damage": 3,
+        "Description": "The .303 Ball ammunition is known for its reliability and accuracy. It's suitable for various shooting applications, including target practice and hunting."
+    },
+    {
+        "id": 64,
+        "filename": "item_Ammo_40mm_C.png",
+        "Category": "Ammunition",
+        "Name": "40mm",
+        "Price": 16.00,
+        "Weight": 0.26,
+        "Serial": 5281302843,
+        "Damage": 1,
+        "Description": "This 40mm round is used in various applications, including signaling and crowd control. It's designed for effective range and safety."
+    },
+    {
+        "id": 65,
+        "filename": "Item_Ammo_44Magnum_C.png",
+        "Category": "Ammunition",
+        "Name": "44 Magnum",
+        "Price": 15.50,
+        "Weight": 0.44,
+        "Serial": 3500359172,
+        "Damage": 2,
+        "Description": "The .44 Magnum is a powerful round favored by many for its stopping power. Ideal for both hunting and self-defense."
+    },
+    {
+        "id": 66,
+        "filename": "Item_Ammo_45ACP_C.png",
+        "Category": "Ammunition",
+        "Name": "45 ACP",
+        "Price": 15.25,
+        "Weight": 0.21,
+        "Serial": 2341629403,
+        "Damage": 5,
+        "Description": "The .45 ACP is a classic choice for self-defense and sport shooting, known for its reliability and stopping power."
+    },
+    {
+        "id": 67,
+        "filename": "Item_Ammo_556mm_C.png",
+        "Category": "Ammunition",
+        "Name": "5.56mm",
+        "Price": 15.75,
+        "Weight": 0.92,
+        "Serial": 5951345357,
+        "Damage": 2,
+        "Description": "The 5.56mm cartridge is widely used in military and civilian applications. It offers great accuracy and minimal recoil."
+    },
+    {
+        "id": 68,
+        "filename": "item_Ammo_57mm_c.png",
+        "Category": "Ammunition",
+        "Name": "57mm",
+        "Price": 15.80,
+        "Weight": 0.49,
+        "Serial": 3122199483,
+        "Damage": 1,
+        "Description": "The 57mm ammunition is designed for specialized applications, providing a balance of power and precision."
+    },
+    {
+        "id": 69,
+        "filename": "item_Ammo_60mm_C.png",
+        "Category": "Ammunition",
+        "Name": "60mm",
+        "Price": 16.50,
+        "Weight": 0.37,
+        "Serial": 4510745417,
+        "Damage": 1,
+        "Description": "The 60mm round is versatile and can be used in various devices. It's engineered for effectiveness and range."
+    },
+    {
+        "id": 70,
+        "filename": "Item_Ammo_762mm_C.png",
+        "Category": "Ammunition",
+        "Name": "7.62mm",
+        "Price": 15.90,
+        "Weight": 0.82,
+        "Serial": 4756939877,
+        "Damage": 3,
+        "Description": "The 7.62mm round is recognized for its versatility and power, making it suitable for a variety of shooting scenarios."
+    },
+    {
+        "id": 71,
+        "filename": "Item_Ammo_9mm_C.png",
+        "Category": "Ammunition",
+        "Name": "9mm",
+        "Price": 15.00,
+        "Weight": 0.55,
+        "Serial": 3664467014,
+        "Damage": 3,
+        "Description": "The 9mm is a popular choice for both self-defense and target shooting. Its compact size and efficiency make it widely favored."
+    },
+    {
+        "id": 72,
+        "filename": "Item_Ammo_Bolt_C.png",
+        "Category": "Ammunition",
+        "Name": "Bolt",
+        "Price": 10.00,
+        "Weight": 0.71,
+        "Serial": 3601528990,
+        "Damage": 1,
+        "Description": "The bolt ammunition is designed for use in crossbows and offers precision and reliability for archery enthusiasts."
+    },
+    {
+        "id": 73,
+        "filename": "Item_Ammo_Flare_C.png",
+        "Category": "Ammunition",
+        "Name": "Flare",
+        "Price": 18.00,
+        "Weight": 0.92,
+        "Serial": 6714923265,
+        "Damage": 5,
+        "Description": "Flare rounds are used for signaling and illumination purposes. They are crucial for safety in outdoor environments."
+    }
+]

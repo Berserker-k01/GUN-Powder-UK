@@ -1,0 +1,290 @@
+div.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+}
+
+section.items {
+    width: 65%;
+    height: 100%;
+    padding: 3rem 2rem;
+}
+
+header.cartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    color: var(--secondaryLabel);
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--secondaryBG);
+    height: 10%;
+}
+
+section.receipt {
+    width: 35%;
+    height: 100vh;
+    padding: 3rem 1.5rem;
+    background-color: #3e4731;
+}
+
+div.details {
+    padding: 1rem 0;
+}
+
+div.totalCost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+div.shipping {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--secondaryBG);
+}
+
+div.shipping>p {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+div.dropdown {
+    margin: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #84996754;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    border: none;
+}
+
+div.checkout>button {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--primaryButton);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+div.checkout>button:hover {
+    background-color: #79725a;
+}
+
+div.table {
+    width: 100%;
+    height: 70%;
+    overflow-y: auto;
+    margin: 1rem 0;
+}
+
+div.tableHead {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    align-items: center;
+    height: 40px;
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #283020;
+}
+
+div.tableHead>p:nth-child(2),
+div.tableHead>p:nth-child(3),
+div.tableHead>p:nth-child(4) {
+    justify-self: center;
+}
+
+div.item {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+div.item>div:nth-child(2),
+div.item>p:nth-child(3),
+div.item>p:nth-child(4) {
+    justify-self: center;
+    font-size: 0.7rem;
+}
+
+div.item>div:nth-child(2) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    width: 70px;
+}
+
+p.sub,
+p.plus {
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p.qty {
+    border: 0.5px solid rgba(128, 128, 128, 0.411);
+    padding: 0.15rem 0.3rem;
+    border-radius: 4px;
+    font-size: 0.5rem;
+}
+
+div.pDetails {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 12px;
+}
+
+p.image {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondaryBG);
+}
+
+p.image>img {
+    width: 100%;
+}
+
+div.actions {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.actions>ul {
+    list-style-type: none;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+div.actions li:first-child {
+    font-weight: bold;
+}
+
+div.actions li:nth-child(2) {
+    color: rgba(245, 245, 245, 0.315);
+}
+
+div.actions li:last-child {
+    color: var(--secondaryBG);
+    cursor: pointer;
+    font-size: 0.6rem;
+}
+
+div.continue {
+    height: 10%;
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 0.5rem;
+    border-top: 1px solid var(--secondaryBG);
+}
+
+div.continue>a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    div.item {
+        height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    div.main {
+        flex-direction: column;
+    }
+
+    section.receipt {
+        width: 100%;
+        height: 100px;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    section.receipt>header {
+        display: none;
+        height: 0;
+    }
+
+    div.details>div.totalCost {
+        display: none;
+        height: 0;
+    }
+
+    div.totalCost {
+        font-size: 1rem;
+    }
+
+    div.shipping {
+        display: none;
+        height: 0;
+    }
+
+    section.items {
+        width: 100%;
+        padding: 2rem 2rem;
+        padding-bottom: 0;
+    }
+
+    div.table {
+        height: 500px;
+    }
+
+    header.cartHeader {
+        flex-direction: row;
+    }
+
+    div.item {
+        height: 100px;
+        margin-bottom: 0.3rem;
+    }
+
+    div.item>div:nth-child(2),
+    div.item>p:nth-child(3),
+    div.item>p:nth-child(4) {
+        font-size: 0.9rem;
+    }
+
+    div.count {
+        width: 60px;
+    }
+
+    p.qty {
+        font-size: 0.8rem;
+    }
+
+    div.actions>ul {
+        font-size: 1rem;
+    }
+
+    div.continue {
+        height: 10%;
+        margin-top: 0;
+        padding: 0.5rem;
+    }
+}
